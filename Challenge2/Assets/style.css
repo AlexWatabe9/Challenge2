@@ -1,0 +1,172 @@
+:root{
+    --darkcolor:darkcyan;
+}
+*{
+    background-color: darkgrey;
+}
+
+.header {
+    flex-direction: start;
+    background-color: var(--darkcolor);
+    
+}
+.header h1 {
+    display: inline-block;
+    background-color: var(--darkcolor);
+
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-indent: 35px;
+    font-size: 20px;
+    background-color: var(--darkcolor);
+
+}
+.header nav ul {
+    list-style-type: none;
+    background-color: var(--darkcolor);
+}
+
+.header nav ul li {
+    display: inline-block;
+    background-color: var(--darkcolor);
+}
+.header nav ul li a{
+    background-color: var(--darkcolor);
+
+}
+.about-line{
+    width: 30px;
+    background-color: black;
+    
+    width: 30px;
+    height: 150px;
+
+}
+.main-box{
+    display: flex;
+    width: max-content;
+}
+.side_bar{
+    background-color: var(--darkcolor);
+}
+
+img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 1500px;
+  justify-content: center;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+
+}
+
+.card {
+    flex-wrap: wrap;
+    width: 50px;
+
+}
+.card1{
+    margin: 50px;
+    padding: 30px;
+    height: 50%;
+    width: 500px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* @media screen and (max-width: 3000px) { 
+    .header {
+      background: var(--darkcolor);
+    }
+    
+    .header h1 {
+        background-color: var(--darkcolor);
+    }
+    .header nav {
+        background-color: var(--darkcolor);
+    }
+    .header nav ul{
+        background-color: var(--darkcolor);
+    }
+    .header nav ul li{
+        background-color: var(--darkcolor);
+    }
+    .header nav ul li a{
+        background-color: var(--darkcolor);
+    }
+}
+
+  
+  /* Large smartphones - navbar changes color */
+  /* @media screen and (max-width: 1500px) { 
+    .header {
+      background-color: cyan;
+    }
+    .header h1 {
+    background-color: cyan;
+    
+    }
+    .header nav {
+        background-color: cyan;
+    }
+    .header nav ul{
+        background-color: cyan;
+    }
+    .header nav ul li{
+        background-color: cyan;
+    }
+    .header nav ul li a{
+        background-color: cyan;
+    }
+ }
+  
+  /* Small smartphones - image placeholders change color 
+  @media screen and (max-width: 750px) {
+    .header{
+      background-color: lightblue;
+    }
+    }
+    .header h1 {
+    background-color: lightblue;
+
+    }
+    .header nav {
+        background-color: lightblue;
+    }
+    .header nav ul{
+        background-color: lightblue;
+    }
+    .header nav ul li{
+        background-color: lightblue;
+    }
+    .header nav ul li a{
+        background-color: lightblue;
+}
